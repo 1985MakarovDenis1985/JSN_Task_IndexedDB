@@ -3,7 +3,6 @@ import {useSelector, useDispatch} from "react-redux";
 import {removeItem, getAllImg, removeAllCollection} from "../indexedDB/db";
 import {setImg, removeImg, addCollection} from "../redux/actions/actions";
 
-
 //----------------------------
 
 function GalleryBox() {
@@ -17,9 +16,6 @@ function GalleryBox() {
 
     const [fromSlice, setFromSlice] = useState(0)
     const [toSlice, setToSlice] = useState(per_page)
-
-
-
 
 
     const setPage = (e) => {

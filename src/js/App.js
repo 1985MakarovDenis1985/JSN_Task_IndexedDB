@@ -1,11 +1,9 @@
-import React, {useEffect, useState, Fragment} from 'react';
-import {HashRouter, Link} from "react-router-dom";
+import React, {Fragment} from 'react';
 import {useSelector, useDispatch} from "react-redux";
 import GalleryBox from "./components/GalleryBox";
 import AddImgAndInformationBox from "./components/AddImgAndInformationBox";
-import {setImg} from "./redux/actions/actions";
-import {dbTrue, dbFalse} from "./redux/actions/actions";
-import {createDataBase, getAllImg} from "./indexedDB/db";
+import {dbTrue} from "./redux/actions/actions";
+import {createDataBase} from "./indexedDB/db";
 
 
 //----------------------------

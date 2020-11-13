@@ -97,11 +97,6 @@ export function addImgToShow() {
             }
             objectImg = JSON.parse(JSON.stringify(obj))
             document.getElementById("img_name").innerText = titleImg
-            // document.getElementById("img_weight").innerText = imgFile.size
-            // document.getElementById("img_type").innerText = imgFile.type
-            // document.getElementById("img_size").innerText = this.width + 'x' + this.height
-            // document.getElementById("img_date").innerText = `${date.getDate()}/${date.getMonth() + 1}/${date.getFullYear()}`
-            // document.getElementById("img_time").innerText = fullTime
             document.getElementById("file").setAttribute("data-name", titleImg)
 
         }
