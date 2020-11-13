@@ -10,6 +10,7 @@ https://github.com/1985MakarovDenis1985/JSN_Task_IndexedDB
 Проект «Collection of Heroes »
 В связи с тем, что знаний в области Back-End не было, проект пришлось в итоге  переделать на indexedDb. Использовались: HTML5, SASS, REACT, REDAX, INDEXEDDB
 
+
 Краткое описание:
 	Локальная галерея героев.
 	Добавляет, читает и скачивает изображения.
