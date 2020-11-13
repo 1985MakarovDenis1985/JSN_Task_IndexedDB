@@ -10,7 +10,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3d68069-842a-40a7-b468-684b8519751c" name="Default Changelist" comment="" />
+    <list default="true" id="e3d68069-842a-40a7-b468-684b8519751c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/car_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/car_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/car_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/landscape_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/landscape_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/landscape_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/nature_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/nature_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/indexedDB/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/indexedDB/db.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +67,7 @@
       <workItem from="1604927629635" duration="2375000" />
       <workItem from="1604999983563" duration="61000" />
       <workItem from="1605000160513" duration="57000" />
-      <workItem from="1605262575315" duration="25813000" />
+      <workItem from="1605262575315" duration="26821000" />
     </task>
     <servers />
   </component>

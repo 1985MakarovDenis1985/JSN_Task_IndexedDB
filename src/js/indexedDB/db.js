@@ -69,26 +69,12 @@ export function addImgToShow() {
             image.setAttribute("src", imgURL);
         }
 
-        let date = new Date()
-        let img = new Image();
         img.src = imgURL;
         img.onload = function () {
-
-            let fullTime;
-            if (date.getMinutes() < 10) {
-                fullTime = `${date.getHours()}:0${date.getMinutes()}`
-            } else {
-                fullTime = `${date.getHours()}:${date.getMinutes()}`
-            }
-
 
             let obj = {
                 // name: imgFile.name,
                 name: titleImg, // name without type
-                size: imgFile.size,
-                type: imgFile.type,
-                date: `${date.getDate()}/${date.getMonth() + 1}/${date.getFullYear()}`,
-                time: fullTime,
                 url: imgURL,
                 catchPhrase: document.getElementById("catchPhrase").value,
                 format: document.getElementById("format").value,
@@ -100,6 +86,42 @@ export function addImgToShow() {
             document.getElementById("file").setAttribute("data-name", titleImg)
 
         }
+
+        // let date = new Date()
+        // let img = new Image();
+        // img.src = imgURL;
+        // img.onload = function () {
+        //
+        //     let fullTime;
+        //     if (date.getMinutes() < 10) {
+        //         fullTime = `${date.getHours()}:0${date.getMinutes()}`
+        //     } else {
+        //         fullTime = `${date.getHours()}:${date.getMinutes()}`
+        //     }
+
+        //
+        //     let obj = {
+        //         name: imgFile.name,
+        //         // name: titleImg, // name without type
+        //         size: imgFile.size,
+        //         type: imgFile.type,
+        //         date: `${date.getDate()}/${date.getMonth() + 1}/${date.getFullYear()}`,
+        //         time: fullTime,
+        //         url: imgURL,
+        //         naturalSize: this.width + 'x' + this.height,
+        //         format: document.getElementById("format").value,
+        //         desc: document.getElementById("description").value
+        //     }
+        //     objectImg = JSON.parse(JSON.stringify(obj))
+        //     document.getElementById("img_name").innerText = titleImg
+        //     document.getElementById("img_weight").innerText = imgFile.size
+        //     document.getElementById("img_type").innerText = imgFile.type
+        //     document.getElementById("img_size").innerText = this.width + 'x' + this.height
+        //     document.getElementById("img_date").innerText = `${date.getDate()}/${date.getMonth() + 1}/${date.getFullYear()}`
+        //     document.getElementById("img_time").innerText = fullTime
+        //     document.getElementById("file").setAttribute("data-name", titleImg)
+        //
+        // }
     }
 }
 
