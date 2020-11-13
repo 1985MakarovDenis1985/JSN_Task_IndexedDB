@@ -1,0 +1,18 @@
+@keyframes error_text_appear {
+  0%{
+    opacity: 0;
+    bottom: 0;
+  }
+  10%{
+    opacity: 1;
+    bottom: 10%;
+  }
+  90%{
+    opacity: 1;
+    bottom: 10%;
+  }
+  100%{
+    opacity: 0;
+    bottom: 0%;
+  }
+}

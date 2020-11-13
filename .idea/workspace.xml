@@ -12,6 +12,20 @@
   <component name="ChangeListManager">
     <list default="true" id="e3d68069-842a-40a7-b468-684b8519751c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/PHP_Engineer_Test.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/black_pantner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/captain_britain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/captain_marvel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/doctor_strange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/hulk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/iron_man.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/peggy_carter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/spider_man.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/tor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/union_jack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/indexedDB/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/indexedDB/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/redux/reducers/rootReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/redux/reducers/rootReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +43,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jCX0xcMg4K1v96h741zGTT6ot3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -53,7 +68,10 @@
       <workItem from="1603655114200" duration="1044000" />
       <workItem from="1603658522202" duration="2342000" />
       <workItem from="1603882503351" duration="417000" />
-      <workItem from="1604927629635" duration="1687000" />
+      <workItem from="1604927629635" duration="2375000" />
+      <workItem from="1604999983563" duration="61000" />
+      <workItem from="1605000160513" duration="57000" />
+      <workItem from="1605262575315" duration="25540000" />
     </task>
     <servers />
   </component>
@@ -77,21 +95,21 @@
       <screen x="0" y="23" width="1440" height="819" />
     </state>
     <state x="125" y="186" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.819@0.23.1440.819" timestamp="1603309091097" />
-    <state width="714" height="211" key="GridCell.Tab.0.bottom" timestamp="1604928935196">
+    <state width="714" height="211" key="GridCell.Tab.0.bottom" timestamp="1604999936017">
       <screen x="0" y="23" width="1440" height="819" />
     </state>
-    <state width="714" height="211" key="GridCell.Tab.0.bottom/0.23.1440.819@0.23.1440.819" timestamp="1604928935196" />
-    <state width="714" height="211" key="GridCell.Tab.0.center" timestamp="1604928935195">
+    <state width="714" height="211" key="GridCell.Tab.0.bottom/0.23.1440.819@0.23.1440.819" timestamp="1604999936017" />
+    <state width="714" height="211" key="GridCell.Tab.0.center" timestamp="1604999936016">
       <screen x="0" y="23" width="1440" height="819" />
     </state>
-    <state width="714" height="211" key="GridCell.Tab.0.center/0.23.1440.819@0.23.1440.819" timestamp="1604928935195" />
-    <state width="714" height="211" key="GridCell.Tab.0.left" timestamp="1604928935194">
+    <state width="714" height="211" key="GridCell.Tab.0.center/0.23.1440.819@0.23.1440.819" timestamp="1604999936016" />
+    <state width="714" height="211" key="GridCell.Tab.0.left" timestamp="1604999936015">
       <screen x="0" y="23" width="1440" height="819" />
     </state>
-    <state width="714" height="211" key="GridCell.Tab.0.left/0.23.1440.819@0.23.1440.819" timestamp="1604928935194" />
-    <state width="714" height="211" key="GridCell.Tab.0.right" timestamp="1604928935195">
+    <state width="714" height="211" key="GridCell.Tab.0.left/0.23.1440.819@0.23.1440.819" timestamp="1604999936015" />
+    <state width="714" height="211" key="GridCell.Tab.0.right" timestamp="1604999936016">
       <screen x="0" y="23" width="1440" height="819" />
     </state>
-    <state width="714" height="211" key="GridCell.Tab.0.right/0.23.1440.819@0.23.1440.819" timestamp="1604928935195" />
+    <state width="714" height="211" key="GridCell.Tab.0.right/0.23.1440.819@0.23.1440.819" timestamp="1604999936016" />
   </component>
 </project>

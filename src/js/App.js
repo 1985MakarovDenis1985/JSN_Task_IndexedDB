@@ -1,7 +1,11 @@
-import React, {Fragment} from 'react';
+import React, {useEffect, useState, Fragment} from 'react';
+import {HashRouter, Link} from "react-router-dom";
 import {useSelector, useDispatch} from "react-redux";
-import {dbTrue} from "./redux/actions/actions";
-import {createDataBase} from "./indexedDB/db";
+import GalleryBox from "./components/GalleryBox";
+import AddImgAndInformationBox from "./components/AddImgAndInformationBox";
+import {setImg} from "./redux/actions/actions";
+import {dbTrue, dbFalse} from "./redux/actions/actions";
+import {createDataBase, getAllImg} from "./indexedDB/db";
 
 
 //----------------------------
@@ -22,7 +26,8 @@ function App() {
         <div className="main_container">
             {dbStore == true ?
                 <Fragment>
-
+                    <AddImgAndInformationBox/>
+                    <GalleryBox/>
                 </Fragment>
                 :
                 <Fragment>
